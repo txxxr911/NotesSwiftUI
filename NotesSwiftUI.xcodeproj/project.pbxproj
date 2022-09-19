@@ -14,6 +14,7 @@
 		37652BFD28D8E1A300BCC72A /* NotesSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652BFC28D8E1A300BCC72A /* NotesSwiftUITests.swift */; };
 		37652C0728D8E1A300BCC72A /* NotesSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C0628D8E1A300BCC72A /* NotesSwiftUIUITests.swift */; };
 		37652C0928D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C0828D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift */; };
+		37652C1628D8E31100BCC72A /* MyNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C1528D8E31100BCC72A /* MyNotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		37652C0228D8E1A300BCC72A /* NotesSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37652C0628D8E1A300BCC72A /* NotesSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSwiftUIUITests.swift; sourceTree = "<group>"; };
 		37652C0828D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37652C1528D8E31100BCC72A /* MyNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				37652BEB28D8E1A000BCC72A /* NotesSwiftUIApp.swift */,
+				37652C1528D8E31100BCC72A /* MyNotes.swift */,
 				37652BED28D8E1A000BCC72A /* ContentView.swift */,
 				37652BEF28D8E1A200BCC72A /* Assets.xcassets */,
 				37652BF128D8E1A200BCC72A /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				37652BEE28D8E1A000BCC72A /* ContentView.swift in Sources */,
 				37652BEC28D8E1A000BCC72A /* NotesSwiftUIApp.swift in Sources */,
+				37652C1628D8E31100BCC72A /* MyNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
