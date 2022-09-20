@@ -15,6 +15,8 @@
 		37652C0728D8E1A300BCC72A /* NotesSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C0628D8E1A300BCC72A /* NotesSwiftUIUITests.swift */; };
 		37652C0928D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C0828D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift */; };
 		37652C1628D8E31100BCC72A /* MyNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C1528D8E31100BCC72A /* MyNotes.swift */; };
+		37652C1828D9C3C100BCC72A /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C1728D9C3C100BCC72A /* FolderView.swift */; };
+		37652C1A28D9C6B600BCC72A /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37652C1928D9C6B600BCC72A /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		37652C0628D8E1A300BCC72A /* NotesSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSwiftUIUITests.swift; sourceTree = "<group>"; };
 		37652C0828D8E1A300BCC72A /* NotesSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		37652C1528D8E31100BCC72A /* MyNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotes.swift; sourceTree = "<group>"; };
+		37652C1728D9C3C100BCC72A /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		37652C1928D9C6B600BCC72A /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		37652BEA28D8E1A000BCC72A /* NotesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				37652C1928D9C6B600BCC72A /* NoteView.swift */,
+				37652C1728D9C3C100BCC72A /* FolderView.swift */,
 				37652BEB28D8E1A000BCC72A /* NotesSwiftUIApp.swift */,
 				37652C1528D8E31100BCC72A /* MyNotes.swift */,
 				37652BED28D8E1A000BCC72A /* ContentView.swift */,
@@ -261,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37652BEE28D8E1A000BCC72A /* ContentView.swift in Sources */,
+				37652C1A28D9C6B600BCC72A /* NoteView.swift in Sources */,
 				37652BEC28D8E1A000BCC72A /* NotesSwiftUIApp.swift in Sources */,
+				37652C1828D9C3C100BCC72A /* FolderView.swift in Sources */,
 				37652C1628D8E31100BCC72A /* MyNotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

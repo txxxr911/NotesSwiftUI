@@ -17,7 +17,18 @@ struct Folder: Identifiable {
     var name: String
 }
 
+struct Note: Identifiable {
+    var id = UUID()
+    var tittle: String
+    var noteText: String
+}
+
 var folders = [
-Folder(name: "Folder1"),
-Folder(name: "Folder2")
+    Folder(name: "Folder1"),
+    Folder(name: "Folder2")
+]
+
+var testNotes = [
+    Note(tittle: "Заметка 1", noteText: "Текст заметки 1"),
+    Note(tittle: "Заметка 2", noteText: "Текст заметки 2")
 ]
