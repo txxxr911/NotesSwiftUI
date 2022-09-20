@@ -54,8 +54,13 @@ struct ContentView: View {
                         .onTapGesture {
                             showingPopover.toggle()
                         }
-                    Image(systemName: "square.and.pencil")
-                        .frame(width: 200, height: 200, alignment: .center)
+                    Spacer()
+                    HStack {
+                        Text("")
+                        NavigationLink(destination: NoteView()) {
+                            Image(systemName: "square.and.pencil")
+                            }
+                        }
                     }
                 }
             }
@@ -68,11 +73,14 @@ struct ContentView: View {
 
 
 struct FolderCell: View {
+    
     var name: String
     var body: some View {
-        HStack {
-            Image(systemName: "folder")
-            Text(name)
+        NavigationLink(destination: FolderView(folderName: name)) {
+            HStack {
+                Image(systemName: "folder")
+                Text(name)
+            }
         }
     }
 }
